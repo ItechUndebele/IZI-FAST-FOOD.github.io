@@ -1,0 +1,541 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+.whole-color
+{
+    background-color: rgb(255, 251, 251);
+}
+html
+{
+    overflow-x: hidden;
+    background-color: rgb(91, 88, 88);
+    scrollbar-width:thin;
+    scroll-padding: 1rem;
+    height: 100%;
+}
+
+nav
+{
+    background-color: black;
+    height: 95px;
+    position: fixed;
+    width: 100%;
+    z-index: 2;  
+}
+ul 
+{
+    list-style: none;
+    display: grid;
+    grid-template-columns:  1fr auto auto  auto auto  auto ;
+    line-height: 80px;
+    position: relative;
+    right: 10px;
+}
+a
+{
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    padding-left: 45px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#logo
+{
+    position: relative;
+     right: 2rem;   
+}
+#logo-burger
+{
+  display: none;   
+}
+li:hover
+{
+    background-color: rgb(50, 39, 17);
+    height: 90px;
+}
+#burger-about-owner
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-right: 30px;
+}
+h3
+{
+    font-family: sans-serif;
+    position: relative;
+    top: 45px;
+    left: 20px;
+    color: white;
+}
+#bar
+{
+    display: none;
+}
+
+#burger-image
+{
+    margin: 200px;
+    width: 500px;
+    padding-bottom: 100px;
+}
+#burger-back
+{
+    background-color: rgb(62, 56, 48);
+    height: 600px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#burger
+{
+   position: relative;
+    top: 100px;
+    left: 15px
+}
+#about-back
+{
+    background-color: blanchedalmond;
+    height: 600px;
+    width: 600px;
+}
+#about
+{
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+    align-items: end;
+    position: relative;
+     top: 102px;
+     left: 20px;  
+}
+#brand-name
+{
+    font-size: 10rem; 
+}
+#about-text
+{
+    font-size: 50px;
+    font-family:'Roboto', sans-serif;
+    text-transform: uppercase; 
+}
+#paragraph
+{
+    font-family:'Roboto', sans-serif; 
+    color: black;
+}
+#owner-image-back
+{
+    background-color: black;
+    width: 340px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#owner
+{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    position: relative;
+    top: 6.3rem;
+    left: 1.5rem;
+}
+
+#foods
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom:800px;
+}
+#foods-back
+{
+    background-color: rgb(142, 172, 160);
+    height: 430px;
+    width: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+#foods-image
+{
+    width:300px;
+    padding-top: 20px;
+}
+#text
+{
+    font-size: 40px;
+    padding-bottom: 80px;
+}
+#sphahlo-text
+{
+    font-family:'Roboto', sans-serif;
+    font-size: 20px;
+}
+#price-text
+{
+    font-family: serif;
+}
+
+#whole-foods
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 5px;
+    column-gap: 5px;
+    margin-left: 15px;
+    position: relative;
+    top: 55rem; 
+}
+#whole-foods-back
+{
+    background-color: rgb(73, 86, 81);
+    position: relative;
+    height: 1000px;
+   
+}
+#foods-control
+{
+    position: relative;
+    bottom: 68rem;
+    margin-top: 75rem;
+}
+#video-back
+{
+   background-color: rgb(196, 169, 132);
+   height: 500px;
+   width: 100%; 
+}
+#video-foods
+{
+    width: 800px;
+    height: 400px;
+    position: relative;
+    top: 73rem 
+}
+#video
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    bottom: 67rem
+}
+#video-all
+{
+    position: relative;
+    top: 9rem
+}
+#text-field
+{
+    height: 50px;
+    width: 300px;
+    border-radius: 5px;
+    border-radius: none;
+}
+#button
+{
+    height: 54px;
+    width: 100px;
+    background-color: brown;
+    color: aliceblue;
+    border-style: none;
+    border-radius: 5px;
+}
+#form
+{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 10rem;
+    margin-bottom: 10rem;
+}
+
+#text-subs
+{
+    position: relative;
+    bottom: 14rem;
+    font-family:'Roboto', sans-serif;
+}
+#stay-updated
+{
+    font-size: 2rem
+}
+#new-receip, #price-changes
+{
+    font-size: 1rem
+}
+#menu
+{
+  display: flex ;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  flex-wrap: wrap;
+  top: 58rem;
+  row-gap: 1rem;
+  column-gap: 1rem;
+}
+
+
+#card-back-color
+{
+    background-color: bisque;
+    width: 30rem;
+    border-radius: 3rem;
+    padding-left: 10rem;
+}
+#contact
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    top: 4rem ;
+    transform: scale(0.7);
+}
+#all-back-color
+{
+    background-color: rgb(55, 92, 92);
+    height: 30rem;
+}
+#call-us-text
+{
+  font-size: 3rem;
+  font-family:'Roboto', Arial;
+  text-transform: uppercase;
+}
+
+#cell
+{
+    font-family:'Roboto', Arial;
+    font-size: 2rem;
+    text-transform: uppercase; 
+}
+#email
+{
+    font-size: 2rem;
+    font-family:'Roboto', Arial;
+   
+}
+
+#best-kota-container0
+{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    left: 2rem;
+    top: 10rem;
+    transform: scale(1.0);
+    margin: 2rem;
+    margin-bottom: 4rem;
+}
+#best-kota-image
+{
+    width: 40rem;
+    height: 20rem;
+}
+#best-kota-text
+{
+   
+    font-family:'Roboto', Arial;
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight:bolder;
+    margin-left: 1rem;
+    position: relative;
+    bottom: 0rem;
+    background-color: rgb(173, 205, 241);
+
+}
+
+#body-arrow
+{
+    padding-left: 10rem; 
+}
+#arrow
+{
+    width:5rem;
+    position: relative;
+    top: 8rem;
+}
+#main-arrow
+{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+  
+}
+#white-space0
+{
+  height: 0%;
+}
+
+footer
+{
+  display: flex;  
+  justify-content: center;
+  align-items:center ;
+  background-color: black;
+  height: 100px;
+  color: rgb(252, 252, 252); 
+  position: relative;
+    top: 15rem;
+  font-family:'Roboto', Arial;
+
+}
+#foods-back:hover{
+    transform: scale(1.05);
+}
+#foods-image, #foods-back{
+    transition: 1s all ease-in-out;
+}
+@media  only screen and (max-width: 962px)
+{
+    #bar 
+    {        
+       display: block;
+       width: 45px;
+       position: relative;
+       left: 5px;
+       top: 25px;
+       position: fixed;
+       z-index: 3;
+    }
+    #bar:hover
+    {
+      background-color: rgb(219, 221, 224);
+      border-radius: 5px;
+    }
+    
+    #bar-color
+    {
+        background-color: rgb(255, 255, 255);
+        height: 100px;
+        width: 100%;
+        position: fixed;
+        z-index: 3;
+    }
+    ul
+    {
+       display: block;
+       height: 500px;
+       width: 480px;
+       position: relative;
+         top: 4rem; 
+         right: 2rem;  
+        line-height: 5rem;
+    }
+    #logo
+    {
+    position: relative;
+     left: 0rem;
+     top: 1rem
+   }
+    nav
+    {
+        height: 35rem;
+    }
+   .navigation
+   {
+       display: none;
+   }
+   #about-text
+   {
+    padding-left: 40px;
+        
+   }
+   #paragraph
+   {
+     width: 400px;
+    padding-left: 45px;
+   }
+   
+   #brand-name 
+   {
+    font-size: 80px;
+    width: 0;
+   padding-left: 55px;
+   }
+   #video-foods
+   {
+    width: 400px;
+   }
+  
+}
+  
+@media  only screen and (max-width: 616px)
+{   
+    
+   #about-text
+   {
+    padding-left: 15rem;
+        
+   }
+   #paragraph
+   {
+     width: 400px;
+     padding-left: 7rem;
+   }
+   
+   #brand-name 
+   {
+    font-size: 80px;
+    width: 0;
+    padding-left: 7rem;
+   }
+   #video-foods
+   {
+    width: 400px;
+   }
+  form
+  {
+   padding-bottom: 25px;
+
+  }
+  #burger-image
+  {
+    width: 350px;
+  }
+  
+}
+#last{
+    position: relative;
+    bottom: 3rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+@media only screen and (max-width: 712px) {
+    
+#best-kota-image
+{
+    position: relative;
+    right: 2rem;
+}
+}
+
+@media only screen and (max-width: 501px){
+      #best-kota-text
+      {
+        position: relative;
+        right: 3rem;
+      }
+}
