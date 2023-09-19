@@ -231,8 +231,6 @@ h3
 {
     display: flex;
     justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
     position: relative;
     bottom: 67rem
 }
@@ -339,7 +337,6 @@ h3
     display: flex;
     flex-wrap: wrap;
     position: relative;
-    left: 2rem;
     top: 10rem;
     transform: scale(1.0);
     margin: 2rem;
@@ -521,23 +518,37 @@ footer
     display: flex;
     justify-content: center;
 }
-@media only screen and (max-width: 712px) {
+/*BEST KOTA*/
+
+@media only screen and (max-width: 762px) {
     
-#best-kota-image
-{
-    position: relative;
-    right: 2rem;
+    #best-kota-image
+    {
+        width: 30rem;
+        height: 20rem;
+    }
+    #best-kota-container0{
+        display: flex;
+        justify-content: center;
+    }
+    #best-kota-text{
+        margin-top: 1rem;
+        margin-right: 1rem;
+    }
 }
+@media only screen and (max-width: 438px) {
+    
+    #best-kota-image
+    {
+        width: 22rem;
+        height: 20rem;
+    }
+    #best-kota-text{
+      font-size: 30px;
+    }
 }
 
-@media only screen and (max-width: 501px){
-      #best-kota-text
-      {
-        position: relative;
-        right: 3rem;
-      }
-}
-
+/*GALLARY MENU*/
 @media only screen and (max-width: 1592px ){
   
     #menu{
@@ -551,4 +562,34 @@ footer
         display: grid;
         grid-template-columns: repeat(1,  390px);
     }   
+}
+@media only screen and (max-width: 402px ){
+  
+    #menu{
+        display: grid;
+        grid-template-columns: repeat(1,  300px);
+    } 
+    #foods-image{
+        width:200px;
+        height: 15rem;
+    }  
+}
+
+/*VIDEO*/
+@media only screen and (max-width: 422px ){
+  
+    #video-foods{
+       width: 340px;
+       position: relative;
+       top: 73rem 
+    } 
+   
+}
+
+/*SUBSCRIBE*/
+@media only screen and (max-width: 486px ){
+  #email{
+     margin-right: 2rem;
+  }
+   
 }
