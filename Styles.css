@@ -134,16 +134,6 @@ h3
     align-items: center;
 }
 
-#owner
-{
-    display: flex;
-    justify-content: end;
-    align-items: end;
-    position: relative;
-    top: 6.3rem;
-    left: 1.5rem;
-}
-
 #foods
 {
     display: flex;
