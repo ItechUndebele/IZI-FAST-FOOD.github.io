@@ -3,7 +3,9 @@
     margin: 0;
     padding: 0;
 }
-
+body{
+    overflow-x: hidden;
+}
 .whole-color
 {
     background-color: rgb(255, 251, 251);
