@@ -2,6 +2,83 @@
 let bar = document.querySelector('#bar');
 let navigation = document.querySelector('.navigation');
 let last = document.querySelector('#last');
+let menu = document.querySelector('#menu');
+
+
+let data = [
+   {
+      img: "images0/kota1.jpg",
+      item_name: 'zisolo',
+      price: '25',
+      id: 1
+   },
+   {
+      img: "images0/kota2.jpg",
+      item_name: 'zisolo',
+      price: '20',
+      id: 2
+   },
+   {
+      img: "images0/kota3.jpg",
+      item_name: 'zisolo',
+      price: '18',
+      id: 3
+   },
+   {
+      img: "images0/kota4.jpg",
+      item_name: 'zisolo',
+      price: '25',
+      id: 4
+   },
+   {
+      img: "images0/kota5.jpg",
+      item_name: 'zisolo',
+      price: '18',
+      id: 5
+   },
+   {
+      img: "images0/kota6.jpg",
+      item_name: 'zisolo',
+      price: '18',
+      id: 6
+   },
+   {
+      img: "images0/kota7.jpg",
+      item_name: 'zisolo',
+      price: '18',
+      id: 7
+   },
+   {
+      img: "images0/kota6.jpg",
+      item_name: 'zisolo',
+      price: '18',
+      id: 8
+   }
+
+]
+
+function my_menu(){
+
+ menu.innerHTML=  data.map(x =>{
+       let{img, item_name, price} = x;
+       return(
+       `
+       <div id="foods">
+       <div id="foods-back">
+        <div>
+           <img src= ${img} id='foods-image'>
+             <div id="text">
+             <h6 id="sphahlo-text">${item_name}</h6>
+            <h6 id="price-text">${price}</h6>
+           </div>
+        </div>
+        </div>
+        </div>
+       `
+       )
+     }).join('');
+}
+my_menu();
 
 function responsive_nav()
 {
