@@ -20,9 +20,6 @@ html
     background-color: rgb(255, 251, 251);
 }
 
-.navigation{
-    position: relative;
-}
 .navigation ul{
     margin-right: 11rem;
 
@@ -87,7 +84,7 @@ h3
     display: none;
 }
 .header--container{
-  margin-top: 1rem;
+  margin-top: 10rem;
   margin-left: 1rem;
   display: flex;
   justify-content: center;
