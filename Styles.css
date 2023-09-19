@@ -3,22 +3,19 @@
     margin: 0;
     padding: 0;
 }
-body{
-    overflow-x: hidden;
-}
+
 .whole-color
 {
     background-color: rgb(255, 251, 251);
 }
-html
-{
-    overflow-x: hidden;
-    background-color: rgb(91, 88, 88);
-    scrollbar-width:thin;
-    scroll-padding: 1rem;
-    height: 100%;
-}
 
+.navigation{
+    position: relative;
+}
+.navigation ul{
+    margin-right: 11rem;
+
+}
 nav
 {
     background-color: black;
@@ -33,8 +30,6 @@ ul
     display: grid;
     grid-template-columns:  1fr auto auto  auto auto  auto ;
     line-height: 80px;
-    position: relative;
-    right: 10px;
 }
 
 a
@@ -81,8 +76,11 @@ h3
     display: none;
 }
 .header--container{
-  margin-top: 10rem;
+  margin-top: 1rem;
   margin-left: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 #burger-back img{
     width: 500px;
@@ -577,3 +575,38 @@ footer
   }
    
 }
+/*OWNER*/
+@media only screen and (max-width: 1532px ){
+    #owner{
+      margin-top: 1rem;
+    }
+     
+  }
+  @media only screen and (max-width: 974px ){
+    #owner, #about{
+      margin-top: 1rem;
+    }
+     
+  }
+  @media only screen and (max-width: 636px ){
+    #burger-back{
+        width: 500px;
+    }
+    #burger-back img{
+        width: 390px;
+    }
+     
+  }
+  @media only screen and (max-width: 598px ){
+    #burger-back{
+        width: 400px;
+    }
+    #burger-back img{
+        width: 350px;
+    }
+    #burger-back, #burger-back img{
+        display: flex;
+        justify-content: center;
+    }
+     
+  }
