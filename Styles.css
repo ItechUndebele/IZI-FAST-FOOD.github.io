@@ -80,13 +80,14 @@ h3
 {
     display: none;
 }
-
-#burger-image
-{
-    margin: 200px;
-    width: 500px;
-    padding-bottom: 100px;
+.header--container{
+  margin-top: 10rem;
+  margin-left: 1rem;
 }
+#burger-back img{
+    width: 500px;
+}
+
 #burger-back
 {
     background-color: rgb(62, 56, 48);
@@ -107,14 +108,7 @@ h3
     height: 600px;
     width: 600px;
 }
-#about
-{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    position: relative;
-     top: 102px;
-}
+
 #brand-name
 {
     font-size: 10rem; 
