@@ -335,10 +335,10 @@ h3
 #best-kota-container0
 {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     position: relative;
     top: 10rem;
-    transform: scale(1.0);
     margin: 2rem;
     margin-bottom: 4rem;
 }
